@@ -9,7 +9,7 @@ setup(name='lime',
       license='BSD',
       packages= find_packages(exclude=['js', 'node_modules', 'tests']),
       install_requires=[
-          'matplotlib==2.1.0;python_version<"3.0"',
+          'matplotlib==2.2.0;python_version<"3.0"',
           'matplotlib;python_version>="3.0"',
           'numpy',
           'scipy',
